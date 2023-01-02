@@ -1,0 +1,132 @@
+body{
+    background-color: #282c34;
+}
+
+.text{
+    font-family: 'Inter Tight', sans-serif;
+    color: #cccccc;
+    list-style: none;
+    
+}
+
+.container{
+    margin: 0 auto;
+}
+
+header{
+    background: #282c34;
+}
+
+/*373a3f*/
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.logo{
+    float: left;
+    padding: 10px 0;
+}
+
+.container{
+    font-family: sans-serif;
+    color: #cccccc;
+    margin:0;
+    padding: 0%;
+}
+
+nav{
+    float: right;
+}
+
+nav ul{
+   margin: 0; 
+   padding: 0;
+   list-style: none;
+}
+
+nav li{
+    display: inline-block;
+    margin: 0 35px;
+    margin-right: 110px;
+    padding-top: 46px;
+    position: relative;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav a:hover{
+    color: #cccccc;
+}
+
+nav a::before{
+    content: '';
+    display: block;
+    height: 2px;
+    width: 0%;
+    background-color: #cccccc;
+
+    position: absolute;
+
+    transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before{
+    width:100%
+}
+
+
+.error{
+    color: #cccccc;
+    text-align: center;
+}
+
+.opened{
+    color: #d19a66 ;
+    font-family: 'Inter Tight', sans-serif;
+}
+
+.logotype{
+    padding: 0;
+    margin: 0 auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+hr{
+    color: #282c34;
+}
+
+#osimage{
+    max-width: 10%;
+    max-height: 10%;
+}
+
+#login{
+    text-align: center;
+    font-family: 'Inter Tight', sans-serif;
+    color: #cccccc;
+    list-style: none;
+    margin-top: 100px;
+    
+}
+
+.container ul {
+    margin: 0;
+    padding: 0%;
+    background-color: #282c34;
+}
+
+.contactPageHead{
+    font-family: 'Open Sans', sans-serif;
+    color: #cccccc;
+    text-align: left    ;
+    font-size: 35px;
+}
+#spPage{
+    align-content: center;
+}
